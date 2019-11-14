@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
         Log.d(msg, "The onDestroy() event");
     }
-
+    // Hello World
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.registrationBtn) {
@@ -56,6 +56,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(i);
         }
     }
-
 }
 
